@@ -11,10 +11,18 @@
   --bg-techs: #cb92b1;
 }
 
+body {
+  background: var(--body-bg-color);
+}
+
+body * {
+  font-family: "Roboto Serif", serif;
+  color: var(--text-color);
+}
+
 #container {
-  width: 100%;
-  max-width: 588px;
-  margin: 56px auto 0px;
+  width: 348px;
+  height: 292px;
   padding: 0 24px;
 }
 
