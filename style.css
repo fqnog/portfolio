@@ -21,17 +21,22 @@ body * {
 }
 
 #container {
+  border: 1px solid red;
   width: 348px;
   height: 292px;
   padding: 0 24px;
 }
 
 #profile {
+  border: 1px solid red;
+
   text-align: center;
   padding: 24px;
 }
 
 #profile img {
+  border: 1px solid red;
+
   width: 112px;
   clip-path: circle();
 }
@@ -42,23 +47,6 @@ body * {
   margin-top: 8px;
 }
 
-#social-links {
-  display: flex;
-  justify-content: center;
-  padding: 24px 0;
-  font-size: 24px;
-}
-
-#social-links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px;
-
-  transition: background 0.2s;
-  border-radius: 50%;
-}
-
-#social-links a:hover {
-  background: var(--highlight-color);
+#projects {
+  border: 1px solid red;
 }
