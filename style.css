@@ -29,14 +29,12 @@ body * {
 
 #profile {
   border: 1px solid red;
-
   text-align: center;
   padding: 24px;
 }
 
 #profile img {
   border: 1px solid red;
-
   width: 112px;
   clip-path: circle();
 }
