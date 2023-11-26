@@ -21,20 +21,19 @@ body * {
 }
 
 #container {
-  border: 1px solid red;
-  width: 348px;
-  height: 292px;
+  border: 1px solid blue;
   padding: 0 24px;
 }
 
 #profile {
-  border: 1px solid red;
+  border: 1px solid green;
+  width: 260px;
+  height: 220px;
   text-align: center;
   padding: 24px;
 }
 
 #profile img {
-  border: 1px solid red;
   width: 112px;
   clip-path: circle();
 }
@@ -47,4 +46,7 @@ body * {
 
 #projects {
   border: 1px solid red;
+  width: 600px;
+  height: 100px;
+  padding: 12px;
 }
