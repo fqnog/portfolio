@@ -22,7 +22,7 @@ body * {
 
 #container {
   border: 1px solid blue;
-  padding: 0 24px;
+  padding: 24px 24px;
 }
 
 #profile {
